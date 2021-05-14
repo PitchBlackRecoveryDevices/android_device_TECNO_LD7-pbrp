@@ -17,4 +17,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_TECNO-LD7.mk
+     $(LOCAL_DIR)/omni_LD7.mk
+
+COMMON_LUNCH_CHOICES := omni_LD7-eng

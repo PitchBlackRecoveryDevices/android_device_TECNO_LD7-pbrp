@@ -16,5 +16,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/tecno/TECNO-LD7
+LOCAL_PATH := device/TECNO/LD7
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
+
+# Dynamic Partition
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
